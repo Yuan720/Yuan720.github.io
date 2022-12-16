@@ -1,17 +1,17 @@
 {
   "config": {
-    "username": "你的名字",
+    "username": "Yuan",
     "avatarPath": "你的头像图片link",
-    "description": "你的博客简介",
-    "name": "你的名称",
-    "blogTitle": "你的博客标题",
-    "blogStartYear": 2019
+    "description": "这是我的博客...",
+    "name": "Yuan",
+    "blogTitle": "生活在别处",
+    "blogStartYear": 2022
   },
   "contacts": [
     {
-      "name": "联系方式名称",
-      "value": "联系方式内容，例如你的电子邮箱地址",
-      "link": "联系方式链接，例如：mailto:yyy@example.com"
+      "name": "yuan",
+      "value": "email",
+      "link": "mailto:yyy@gov.com"
     }
   ]
 }
