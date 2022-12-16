@@ -2,12 +2,11 @@
   <div>
     <div class="container">
       <div class="text-center">
-        <a href="https://github.com/Yuan720">
-          <div class="center">
+        <div class="center">
+            <a href="https://github.com/Yuan720">
             <Avatar size="300" home="true" />
+            </a>
           </div>
-        </a>
-
         <h1>{{ config.name }}</h1>
         <h4 style="color: #666666">{{ config.username }}</h4>
         <p>{{ config.description }}</p>
