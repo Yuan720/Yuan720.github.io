@@ -2,9 +2,8 @@ name: blogger pages deploy
 
 on:
   push:
-    branches: [ "blogger" ]
-  pull_request:
-    branches: [ "blogger" ]
+    branches: 
+    - blogger
 
 jobs:
   build:
