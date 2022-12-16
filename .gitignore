@@ -24,4 +24,6 @@ pnpm-debug.log*
 
 # Personal blog files
 #posts
-!/posts/imges/
+/posts/imges/
+/posts/imges/jsj.jpg
+/posts/imges/nhj.jpg
