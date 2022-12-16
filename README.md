@@ -10,4 +10,3 @@ You can host it on any server that has Nodejs and Vue installed. Actually, you e
 
 Please refer to the [documentation](https://samzhangjy.github.io/#/posts/vue-blogger).
 
-### trigger blogger
