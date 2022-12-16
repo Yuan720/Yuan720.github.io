@@ -29,13 +29,15 @@ Vue.use(Vuesax, {})
 Vue.mixin({
   methods: {
     changeTitle: function (title) {
+      // eslint-disable-next-line no-unused-vars
       let Config = null
       try {
         Config = require('@/../posts/data/config.json')
       } catch (e) {
         Config = require('@/defaults/config.json')
       }
-      document.title = `${title} - ${Config.config.blogTitle}`
+      document.title = `${title}`
+      /* - ${Config.config.blogTitle} */
     },
     getConfig: function (name = 'config.json') {
       let Config = null

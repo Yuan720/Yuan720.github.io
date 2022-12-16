@@ -35,7 +35,7 @@ import Nothing from '@/components/Nothing.vue'
 export default {
   name: 'ViewTags',
   mounted: function () {
-    this.changeTitle('Tags')
+    this.changeTitle('分类')
   },
   components: {
     Nothing

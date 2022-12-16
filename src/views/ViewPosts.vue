@@ -39,7 +39,7 @@ export default {
     }
   },
   mounted: function () {
-    this.changeTitle('Posts')
+    this.changeTitle('文章分享')
     const posts = this.allPosts
     this.allPosts = []
     for (let i = 0; i < posts.length; i += 6) this.allPosts.push(posts.slice(i, i + 6)) // pagination, 6 posts per page

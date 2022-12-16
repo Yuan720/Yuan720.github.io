@@ -64,7 +64,7 @@ export default {
     }
   },
   mounted: function () {
-    this.changeTitle('Projects')
+    this.changeTitle('我的项目')
   }
 }
 </script>

@@ -44,7 +44,7 @@ export default {
     }
   },
   mounted: function () {
-    this.changeTitle('Home')
+    this.changeTitle('首页')
   }
 }
 </script>

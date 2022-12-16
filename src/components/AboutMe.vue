@@ -22,7 +22,7 @@ export default {
     About: About.vue.component
   },
   mounted: function () {
-    this.changeTitle('About')
+    this.changeTitle('简介')
   }
 }
 </script>

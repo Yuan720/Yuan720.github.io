@@ -19,7 +19,7 @@ export default {
   name: 'ExchangeLink',
   props: ['title', 'desc', 'link'],
   mounted: function () {
-    this.changeTitle('Links')
+    this.changeTitle('推荐')
   }
 }
 </script>
