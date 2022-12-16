@@ -1,4 +1,4 @@
-name: build my page
+name: github pages deploy
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Build
+    - name: Build Project
       run: |
         npm install -g @vue/cli
         yarn add -D webpack-cli
