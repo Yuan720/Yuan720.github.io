@@ -70,27 +70,27 @@ export default {
       dark: false,
       links: [
         {
-          name: 'Home',
+          name: '首页',
           url: '/'
         },
         {
-          name: 'Posts',
+          name: '文章',
           url: '/posts'
         },
         {
-          name: 'Projects',
+          name: '项目',
           url: '/projects'
         },
         {
-          name: 'Links',
+          name: '推荐',
           url: '/links'
         },
         {
-          name: 'Tags',
+          name: '分类',
           url: '/tags'
         },
         {
-          name: 'About',
+          name: '关于我',
           url: '/about'
         }
       ]
