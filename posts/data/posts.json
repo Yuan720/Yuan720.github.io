@@ -1,15 +1,11 @@
 {
   "posts": [
     {
-      "title": "VueBlogger: A simple blogging site for Vue",
-      "tags": ["Vue.js", "project", "frontend"],
+      "title": "长城装修工程",
+      "tags": ["前端", "Java", "K8S","工具分享"],
       "cover": "https://tvax4.sinaimg.cn/large/007YLcQ6ly1h93sfhcff9j31hc0u0k2f",
-      "des": "There isn't really a simple blogging tool for Vue. VuePress works, but it's to complicated. So for that purpose, I developed this light-weight blogging site for Vue: VueBlogger.",
-      "date": [
-        2021,
-        10,
-        6
-      ],
+      "des": "这是某个牛逼项目的描述测试,主要包括长城贴瓷砖.月球装电梯等复杂流程",
+      "date": [2022, 12, 16],
       "id": "blogue"
     }
   ]
