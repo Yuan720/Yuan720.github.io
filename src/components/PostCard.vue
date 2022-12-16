@@ -20,8 +20,8 @@
         <vs-tooltip right shadow interactivity>
           <Avatar />
           <template #tooltip>
-            Posted by
-            <b>{{ config.username }}</b>
+            由
+            <b>{{ config.username }}</b>发布
           </template>
         </vs-tooltip>
       </template>

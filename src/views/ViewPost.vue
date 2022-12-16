@@ -5,7 +5,7 @@
       <div class="text-center">
         <h1 class="headline">{{ post.title }}</h1>
         <p>
-          Posted on: {{ `${post.date[0]}/${post.date[1]}/${post.date[2]}` }}
+          发布于: {{ `${post.date[0]}/${post.date[1]}/${post.date[2]}` }}
         </p>
         <div class="center">
           <Avatar />
