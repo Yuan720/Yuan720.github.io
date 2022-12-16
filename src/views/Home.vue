@@ -3,9 +3,7 @@
     <div class="container">
       <div class="text-center">
         <div class="center">
-            <a href="https://github.com/Yuan720">
-            <Avatar size="300" home="true" />
-            </a>
+          <Avatar size="300" home="true" />
           </div>
         <h1>{{ config.name }}</h1>
         <h4 style="color: #666666">{{ config.username }}</h4>

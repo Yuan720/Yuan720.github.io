@@ -1,9 +1,11 @@
 <template>
   <div :class="`${home ? 'avatar-home' : ''}`">
     <vs-avatar :size="size" circle>
+      <a href="https://github.com/Yuan720">
       <img
         :src="config.avatarPath"
       >
+      </a>
     </vs-avatar>
   </div>
 </template>
