@@ -21,9 +21,10 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-
+        cache: 'npm'
     - name: Build
       run: |
+        ls
         yarn add -D webpack-cli
         npm install --legacy-peer-deps
         npx webpack
