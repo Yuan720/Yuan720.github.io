@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-center">Projects</h1>
+    <h1 class="text-center">项目分享</h1>
     <hr />
     <ProjectDes class="text-center" />
     <br />
