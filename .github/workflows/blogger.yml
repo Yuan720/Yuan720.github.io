@@ -1,6 +1,7 @@
 name: blogger pages deploy
 
 on:
+ workflow_dispatch:
  push:
     branches: 
     - blogger
