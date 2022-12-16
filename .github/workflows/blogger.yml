@@ -1,11 +1,9 @@
 name: blogger pages deploy
 
 on:
- workflow_dispatch:
- push:
-    branches: 
-    - 'blogger'
-
+  workflow_dispatch:
+  push:
+    branches: [ "blogger" ]
 jobs:
   build:
     runs-on: ubuntu-latest
