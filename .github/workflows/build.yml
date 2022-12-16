@@ -24,10 +24,10 @@ jobs:
         cache: 'npm'
     - name: Build
       run: |
-        ls
+        npm install -g @vue/cli
         yarn add -D webpack-cli
         npm install --legacy-peer-deps
-        npx webpack
+        npm run build
     - name: Deploy GitHub Pages site
       uses: actions/deploy-pages@v1.2.3
 
