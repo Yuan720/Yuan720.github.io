@@ -3,7 +3,7 @@
     {
       "title": "VueBlogger: A simple blogging site for Vue",  // 博客标题
       "tags": ["Vue.js", "project", "frontend"],  // 博客标签
-      "cover": "https://dev-to-uploads.s3.amazonaws.com/i/95lvt23xz4ozer5byomi.png",  // 博客封面图片链接
+      "cover": "https://tvax4.sinaimg.cn/large/007YLcQ6ly1h93sfhcff9j31hc0u0k2f",  // 博客封面图片链接
       "des": "There isn't really a simple blogging tool for Vue. VuePress works, but it's to complicated. So for that purpose, I developed this light-weight blogging site for Vue: VueBlogger.",  // 博客简介
       "date": [
         2021,
