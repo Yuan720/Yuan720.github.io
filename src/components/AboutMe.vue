@@ -1,7 +1,7 @@
 <template>
   <div class="container text-center">
     <h1>
-      About Me
+      简介
     </h1>
     <hr />
     <About />

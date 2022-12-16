@@ -1,7 +1,7 @@
 <template>
   <div class="container" style="margin-top: 100px">
     <h2 class="text-center">
-      Contact Me
+      更多分享
     </h2>
     <div class="grid-3_xs-1_sm-2_md-2" v-if="contacts.length">
       <div

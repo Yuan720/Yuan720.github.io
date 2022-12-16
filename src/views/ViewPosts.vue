@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-center">Posts</h1>
+    <h1 class="text-center">我的分享</h1>
     <hr />
     <div v-if="getPosts().length">
       <br />

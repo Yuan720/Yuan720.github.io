@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-center">Tags</h1>
+    <h1 class="text-center">分类</h1>
     <hr />
     <div class="grid-3_xs-1_sm-2_md-2" v-if="tags.length">
       <div

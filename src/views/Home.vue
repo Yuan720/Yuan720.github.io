@@ -9,7 +9,7 @@
         <h4 style="color: #666666">{{ config.username }}</h4>
         <p>{{ config.description }}</p>
       </div>
-      <h2>Latest Posts</h2>
+      <h2>最近分享</h2>
       <hr/>
       <div class="grid-3_xs-1_sm-2_md-2" v-if="posts.length">
         <div
