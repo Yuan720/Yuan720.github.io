@@ -24,7 +24,8 @@ jobs:
 
     - name: Build
       run: |
-        echo yes | npm install --legacy-peer-deps
+        npm install webpack-cli -g
+        npm install --legacy-peer-deps
         npx webpack
     - name: Deploy GitHub Pages site
       uses: actions/deploy-pages@v1.2.3
