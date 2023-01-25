@@ -19,7 +19,7 @@ proxies:
   ws-opts:
     headers:
       Host: t7z.cupid.iqiyi.com
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+    path: /pq/jp1
 - alterId: 0
   cipher: auto
   name: 🇭🇰 香港HKT-免流(三网优化)
@@ -35,7 +35,7 @@ proxies:
   ws-opts:
     headers:
       Host: t7z.cupid.iqiyi.com
-    path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+    path: /pq/jp1
 - alterId: 0
   cipher: auto
   name: 🇳🇱 荷兰 | NLD | IPLC专线
