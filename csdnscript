@@ -1,0 +1,53 @@
+// ==UserScript==
+// @name         CSDN Copy
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Fuck CSDN
+// @author       You
+// @match        https://*.csdn.net/*
+// @match        *juejin.cn/*
+// @match        https://www.baidu.com/*
+// @icon         https://g.csdnimg.cn/static/logo/favicon32.ico
+// @grant        GM_addStyle
+// @grant        GM_unsafeWindow
+// ==/UserScript==
+
+(function() {
+    'use strict';
+ GM_addStyle(`
+.aging-tools-gap{
+padding-top:0px!important;
+}
+#content_views pre,code{
+-webkit-touch-callout: text!important;
+     -webkit-user-select: text!important;
+    -khtml-user-select: text!important;
+    -moz-user-select:text!important;
+    -ms-user-select: text!important;
+    user-select: text!important;
+}
+.csdn-side-toolbar,.passport-login-mark,.hljs-button,.signin,.passport-login-container,.leftPop ,.tools-wrap-new_6HSYA {
+display:none!important;
+}
+
+ `);
+    // Your code here...
+   (function() {
+    function addLink(e) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+        console.log("document copyed....");
+   let copytext = window.getSelection();
+         console.log(e.clipboardData);
+         console.log(e.clipboardData.getData("text/plain"));
+         console.log(e.clipboardData.types);
+         console.log(window.clipboardData);
+    var clipdata = e.clipboardData || window.clipboardData;
+  if (clipdata) {
+        clipdata.setData('Text', copytext);
+    }
+}
+document.addEventListener('copy', addLink);
+})();
+
+})();
